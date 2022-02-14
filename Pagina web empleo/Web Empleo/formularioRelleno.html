@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p><font face="Arial" size="5">Rellena de forma completa los siguientes campos:</font></p>
+        <form action="recibe.html" method="get"><font face="Arial" size="4" color="3F423F">
+            <p>Nombre: <input type="text" name="nombre" size="20" placeholder="Introduzca aqui su nombre"></p>
+            <p>Apellidos: <input type="text" name="apellidos" size="40" placeholder="Introduzca aqui sus apellidos"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+            <p>Años de experiencia en el sector: <input type="number" name="exp"></p>
+            <p>Sexo:
+              <input type="radio" name="hm" value="h"> Hombre
+              <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p>Indique su nivel de ingles(de 1 a 10):
+                <input type="range" name="rango"
+                  min="1" max="10" step="1"></p>
+            <p><textarea name="texto" rows="4" cols="40" placeholder="Escriba aqui sus intereses y aficiones"></textarea></p>
+            <p>
+                <button type="submit">
+                    <img src="logo_small_icon_only_inverted.png" alt="imagen" width="50" height="50" style="vertical-align: middle">
+                    Enviar
+                </button>
+                <button type="reset">
+                    <img src="logo_small_icon_only.png" alt="imagen" width="50" height="50" style="vertical-align: middle">
+                    Borrar
+                </button>
+            </p>
+          </form></font>
+    </body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Datos seleccionables</title>
+    </head>
+    <body>
+        <p><font size="6">Datos seleccionables</font></p>
+
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get">
+            <p>Sistema operativo:<br>
+                <select name="menu">
+                    <option value="1">Windows</option>
+                    <option value="2">Mac</option>
+                    <option value="3">Linux</option>
+                    <option value="4">Otro</option>
+                </select>
+            </p>
+            <p>Sistema operativo:<br>
+                <select name="menu" size="4">
+                    <option value="1">Windows</option>
+                    <option value="2">Mac</option>
+                    <option value="3">Linux</option>
+                    <option value="4">Otro</option>
+                </select>
+            </p>
+            <p>Sistema operativo:<br>
+                <select name="menu[]" size="4" multiple>
+                    <option value="1">Windows</option>
+                    <option value="2">Mac</option>
+                    <option value="3">Linux</option>
+                    <option value="4">Otro</option>
+                </select>
+            </p>
+        </form>
+    </body>
+</html>

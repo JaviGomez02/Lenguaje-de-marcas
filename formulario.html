@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="ejemplo.html">
+            <p>Nombre: <input type="text" name="nombre" required minlength="3" maxlength="16" placeholder="Introduzca aqui su nombre"></p>
+            <p>Apellidos: <input type="text" name="apellidos" size="40" placeholder="Introduzca aqui su apellido"></p>
+            <p>Contraseña: <input type="password" name="password" minlength="6" placeholder="Introduzca aqui su contraseña"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+            <p>Edad:
+                <input type="radio" name="edad" value="menor"> Menor
+                <input type="radio" name="edad" value="adulto" required> Adulto
+            </p>
+            <p>Escriba un número menor o igual que 100:<input type="number" name="numero" max="100"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+            <p><input type="checkbox" name="casilla">Marca la casilla si eres un maquinon</p>
+            <p>Genero:<br>
+                <input type="radio" name="boton" value="1">Hombre<br>
+                <input type="radio" name="boton" value="2">Mujer<br>
+                <input type="radio" name="boton" value="3">No binarie inclusive pansexual
+            </p>
+            <p>Introduce tu color favorito: <input type="color" name="colorElegido"></p>
+            <p>¿Cuantas asignaturas te van a quedar? (de 0 a 6):
+                <input type="range" name="rango" min="0" max="6" step="1">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+            
+        
+        </form>
+    </body>
+    
+</html>

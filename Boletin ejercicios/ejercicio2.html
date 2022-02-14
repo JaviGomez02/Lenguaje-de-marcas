@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <p><font size="6">Rellena tu CV</font></p>
+
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get">
+            <p>Nombre:<br>
+                <input type="text" name=nombre size="30" required maxlength="30">
+            </p>
+            <p>Apellidos:<br>
+                <input type="text" name=apellidos size="80" required maxlength="30">
+            </p>
+            <p>Contraseña:<br>
+                <input type="password" name=contraseña size="10" maxlength="10" required>
+            </p>
+            <p>DNI:<br>
+                <input type="text" name=dni size="8" maxlength="9" minlength="9" required placeholder="12345678X">
+            </p>
+            <p>Sexo:<br>
+                <input type="radio" name="boton" value="h"> Hombre<br>
+                <input type="radio" name="boton" value="m"> Mujer
+            </p>
+            <p>Incluir mi foto:
+                <input type="file">
+            </p>
+            <p>
+                <input type="checkbox" name="casilla" checked>Suscribirme al boletin de novedades
+            </p>
+            <p>
+                <input type="submit" value="Guardar cambios">
+            </p>
+            <p>
+                <input type="reset" value="Borrar los datos introducidos">
+            </p>
+
+
+
+        </form>
+    </body>
+</html>

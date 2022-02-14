@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Informacion sobre el producto</title>
+    </head>
+    <body>
+        <p><font size="6">Informacion sobre el producto</font></p>
+
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get">
+            <fieldset>
+                <legend>Datos basicos</legend>
+                <p>Nombre:<br>
+                    <input type="text" name=nombre size="30" required maxlength="30">
+                </p>
+                <p>Descripcion:<br>
+                    <textarea name="texto" rows="5" cols="30"></textarea>
+                </p>
+                <p>Foto:
+                    <input type="file">
+                </p>
+                <p>
+                    <input type="checkbox" name="casilla">Añadir contador de visitas
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Datos economicos</legend>
+                <p>Precio
+                    <input type="number">€ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                    Impuestos <select type=menu>
+                        <option value="1">4%</option>
+                        <option value="2">7%</option>
+                        <option value="3">16%</option>
+                        <option value="4">25%</option>
+                    </select>
+                </p>
+                <p>Promocion<br>
+                    <input type="radio" name="boton" value="1">Ninguno<br>
+                    <input type="radio" name="boton" value="2">Transporte gratuito<br>
+                    <input type="radio" name="boton" value="3">Descuento 5%
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
